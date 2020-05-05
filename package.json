@@ -2,7 +2,7 @@
   "name": "mock-server-engine",
   "version": "0.0.1",
   "description": "Awesome project developed with TypeORM.",
-  "main": "dist/server.js",
+  "main": "dist/index.js",
   "devDependencies": {
     "nodemon": "^2.0.3",
     "@types/node": "latest"
