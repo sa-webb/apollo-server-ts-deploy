@@ -43,6 +43,8 @@ const resolvers = {
 const server = new ApolloServer({
   typeDefs,
   resolvers,
+  playground: true,
+  introspection: true
   // engine: {
   //   apiKey: process.env.ENGINE_API_KEY,
   // },
