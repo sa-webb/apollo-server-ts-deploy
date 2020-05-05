@@ -1,0 +1,30 @@
+{
+  "name": "mock-server-engine",
+  "version": "0.0.1",
+  "description": "Awesome project developed with TypeORM.",
+  "main": "dist/server.js",
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "@types/node": "latest"
+  },
+  "dependencies": {
+    "apollo-server": "^2.12.0",
+    "dotenv": "^8.2.0",
+    "pg": "^7.3.0",
+    "reflect-metadata": "^0.1.10",
+    "ts-node": "8.10.1",
+    "type-graphql": "^0.17.6",
+    "typedi": "^0.8.0",
+    "typeorm": "0.2.22",
+    "typeorm-typedi-extensions": "^0.2.3",
+    "typescript": "3.7.5"
+  },
+  "scripts": {
+    "build-ts": "tsc",
+    "postinstall": "npm run build-ts",
+    "start": "npm run serve",
+    "serve": "node dist/index.js",
+    "watch-node": "nodemon dist/index.js",
+    "watch-ts": "tsc -w"
+  }
+}
